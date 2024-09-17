@@ -2,7 +2,7 @@
 const whichGreeting = (timeOfDay) => {
     console.log(`Good ${timeOfDay}`)
 }
-const greet = (time, fn) => { 
+const greet = (time,fn) => { 
     if (time < 1200) {
         fn("Morning")
     } 
